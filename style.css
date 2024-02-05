@@ -410,7 +410,7 @@ a{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-45%, -60%) scale(1.2);
+    transform: translate(-45%, -60%) scale(1.5);
 
 }
 .anh, .anhh, .anhhh, .lop2{
@@ -1129,7 +1129,8 @@ input:focus ~ label, input:valid ~ label{
         height: 300px;
     }
     .about_content-image img{
-        width: 100%;
+        transform: translate(-50%, -50%) scale(0.8);
+
     }
     .about_title_1, .skill_title, .portfolio_title, .testimonial_title, .contact_title{
         font-size: 50px;
