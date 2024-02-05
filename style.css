@@ -950,7 +950,6 @@ input:focus ~ label, input:valid ~ label{
     .home_content-1image{
         width: 240px;
         height: 240px;
-
     }
     .home_content-1image img{
         height: 100%;
@@ -1132,7 +1131,7 @@ input:focus ~ label, input:valid ~ label{
         transform: translate(-50%, -50%) scale(0.8);
 
     }
-    .about_title_1, .skill_title, .portfolio_title, .testimonial_title, .contact_title{
+    .about_title_1 .glitch, .skill_title, .portfolio_title, .testimonial_title, .contact_title{
         font-size: 50px;
     }
     .about_content-text p{
@@ -1145,10 +1144,13 @@ input:focus ~ label, input:valid ~ label{
     .portfolio_content-lab-5,
     .portfolio_content-lab-6,
     .portfolio_content-lab-7{
-        font-size: 16px;
+        font-size: 14px;
         border: none;
     }
     input{
+        width: 90vw;
+    }
+    .form2 input{
         width: 90vw;
     }
     .icon {
